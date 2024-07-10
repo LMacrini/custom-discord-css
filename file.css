@@ -68,3 +68,24 @@
 }
 
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
+
+/* Match Send Friend Request Button color with the Profile Color */
+.custom-profile-theme [aria-label="Send Friend Request"] button {
+ background-color: var(--profile-gradient-button-color);
+ transition: opacity .2s ease-in-out;
+}
+
+/* Unclamp bio length in user popout */
+[class^="userPopoutInner_"] [class^="descriptionClamp_"] {
+    -webkit-line-clamp: unset;
+    max-height: unset;
+    &+[class^="viewFullBio_"] {
+        display: none;
+    }
+}
+
+/* Unclamp status bubble size in user popout */
+[class^="userPopoutInner_"] [class^="statusBubble_"] [class*="clamp_"] {
+    -webkit-line-clamp: unset;
+    max-height: unset!important;
+}
