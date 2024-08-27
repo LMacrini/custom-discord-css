@@ -1,3 +1,8 @@
+@import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/RecolorAddFriendsTab.css");
+@import url("https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.user.css");
+@import url("https://raw.githubusercontent.com/ColynOrg/CSS-Snippets/main/UsernameSymbol.css");
+@import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/StageRecolor.css");
+
 @font-face {
   font-family: "toki pona";
   src: local("fairfax hd");
@@ -99,4 +104,14 @@
 }
 .custom-profile-theme [class^=statusBubbleOuter_]:after {
   background-color: var(--profile-gradient-primary-color);
+}
+
+/* Make Delete/Logout Buttons Red */
+[class^=item_][data-tab-id="DELETE"],
+[class^=item_][data-tab-id="logout"] {
+    color: var(--info-danger-foreground) !important;
+}
+[class^=item_][data-tab-id="DELETE"]:hover,
+[class^=item_][data-tab-id="logout"]:hover {
+    background-color: var(--info-danger-background) !important;
 }
