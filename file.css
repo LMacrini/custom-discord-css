@@ -115,3 +115,7 @@
 [class^=item_][data-tab-id="logout"]:hover {
     background-color: var(--info-danger-background) !important;
 }
+
+h3.membersGroup_cbd271.container_a5ad5c:has(span.headerContainer_bc6acb) {
+    display: none;
+}
