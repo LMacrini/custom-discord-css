@@ -116,6 +116,7 @@
     background-color: var(--info-danger-background) !important;
 }
 
-h3.membersGroup_cbd271.container_a5ad5c:has(span.headerContainer_bc6acb) {
+h3.membersGroup_cbd271.container_a5ad5c:has(span.headerContainer_bc6acb),
+div.container_c64476.openOnHover_c64476:has(div.infoSection_c64476) {
     display: none;
 }
