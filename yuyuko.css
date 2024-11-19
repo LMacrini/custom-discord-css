@@ -29,6 +29,7 @@
   --border-mentioned: #474c64;
   --background-mentioned-hover: #2f3344;
   --accent-color: #82AAFF;
+  --modal-background: var(--background-primary);
 
   /* Folder Color */
   --folder-color: #202332d0;
