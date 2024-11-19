@@ -1,0 +1,51 @@
+.theme-dark { /* Dark Mode */
+
+  /*  Header Color  */
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+
+  /*  Text Color  */
+  --text-normal: #eeffff;
+  --text-muted: #ff87df;
+  --interactive-normal: #5f647e;
+  --interactive-hover: #a2a6c2;
+  --interactive-active: #b5bad1;
+  --interactive-muted: #55576b;
+
+  /* Background Color */
+  --background-primary: #0F111A;
+  --background-secondary: #171722;
+  --background-secondary-alt: #13131a;
+  --background-tertiary: #16161e;
+  --background-tertiary-alt: var(--background-secondary-alt);
+  --background-accent: #434461;
+  --background-floating: #161620;
+  --background-modifier-hover: #212331c0;
+  --background-modifier-active: #282a3680;
+  --background-modifier-selected: #24263171;
+  --background-modifier-accent: #1e1e29;
+  --background-mentioned: #252836;
+  --border-mentioned: #474c64;
+  --background-mentioned-hover: #2f3344;
+  --accent-color: #82AAFF;
+
+  /* Folder Color */
+  --folder-color: #202332d0;
+  --folder-color-light: #2f3342d0;
+
+  /* Scrollbars Color */
+  --scrollbar-thin-thumb: transparent;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #2b2b46af;
+  --scrollbar-auto-thumb-hover: #27273d85;
+  --scrollba-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+
+  /* Chat Box Color */
+  --channeltextarea-background: var(--background-secondary);
+  --channeltextarea-background-hover: var(--background-tertiary);
+
+	/* Square avatar addons */
+	--avatar-roundess: 5px;
+}
