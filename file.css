@@ -128,3 +128,21 @@ div.container_c64476.openOnHover_c64476:has(div.infoSection_c64476) {
 .unreadMentionsFixedFooter_fea3ef {
     bottom: 0;
 }
+
+/* Fix forums */
+.forumOrHome_ff5f90 {
+    --__header-bar-background:;
+}
+
+.container_a6d69a {
+    background: var(--background-primary);
+}
+
+.mainCard_a6d69a {
+    background: var(--background-secondary);
+    border: 1px solid #000000;
+}
+
+.mainCard_a6d69a:hover {
+    background: var(--background-hover);
+}
