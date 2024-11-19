@@ -2,6 +2,7 @@
 @import url("https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.user.css");
 @import url("https://raw.githubusercontent.com/ColynOrg/CSS-Snippets/main/UsernameSymbol.css");
 @import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/StageRecolor.css");
+@import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
 
 @font-face {
   font-family: "toki pona";
@@ -72,8 +73,6 @@
   max-height: 60vh;
 }
 
-@import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
-
 /* Match Send Friend Request Button color with the Profile Color */
 .custom-profile-theme [aria-label="Send Friend Request"] button {
  background-color: var(--profile-gradient-button-color);
@@ -121,7 +120,7 @@ div.container_c64476.openOnHover_c64476:has(div.infoSection_c64476) {
     display: none;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
     display: none;
 }
 
