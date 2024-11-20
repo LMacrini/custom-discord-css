@@ -51,6 +51,6 @@
 	/* Square avatar addons */
 	--avatar-roundess: 5px;
 }
-[class^=autocompleteInner] [class^=list] {
-	background-color: var(--background-primary);
+[class^=autocomplete_] [class^=autocompleteInner_] {
+    background-color: var(--background-primary);
 }
