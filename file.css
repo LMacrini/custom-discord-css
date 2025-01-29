@@ -6,11 +6,12 @@
  */
 
 @import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/RecolorAddFriendsTab.css");
-@import url("https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.user.css");
 @import url("https://raw.githubusercontent.com/ColynOrg/CSS-Snippets/main/UsernameSymbol.css");
 @import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/StageRecolor.css");
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
-@import "./yuyuko.css";
+/* @import url("https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.user.css");
+   @import "./yuyuko.css";
+*/
 
 @font-face {
   font-family: "toki pona";
